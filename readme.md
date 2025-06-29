@@ -18,7 +18,7 @@
    ```
 3. **Run the server:**
    ```bash
-   node src/index.mjs
+   nodemon src/index.mjs
    ```
    The server will start on [http://localhost:3000](http://localhost:3000)
 
