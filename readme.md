@@ -1,14 +1,22 @@
 # Ignite Club Class Booking API
 
-A simple RESTful API for managing club classes and bookings. Built with Node.js and Express. Data is stored in-memory (no database required).
+## ⚡ Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended) must be installed on your system.
+  - Check your version with `node -v`.
 
 ## 🚀 Getting Started
 
-1. **Install dependencies:**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/VINAYREDDY59/ignite.git
+   cd ignite
+   ```
+2. **Install dependencies:**
    ```bash
    npm install
    ```
-2. **Run the server:**
+3. **Run the server:**
    ```bash
    node src/index.mjs
    ```
@@ -34,9 +42,9 @@ A simple RESTful API for managing club classes and bookings. Built with Node.js 
   ```
 - **Response:**
   ```json
-  { 
-    "message": "Classes created successfully" 
-    }
+  {
+    "message": "Classes created successfully"
+  }
   ```
 
 #### Example curl
@@ -69,9 +77,9 @@ curl -X POST http://localhost:3000/ignite/classes \
   ```
 - **Response:**
   ```json
-  { 
-    "message": "Booking created successfully" 
-    }
+  {
+    "message": "Booking created successfully"
+  }
   ```
 
 #### Example curl
@@ -129,4 +137,5 @@ curl "http://localhost:3000/ignite/bookings?userName=Alice&startDate=2025-08-01&
 ---
 
 ## 👤 Author
- **vinayreddy.govuri.59@gmail.com**
+
+**vinayreddy.govuri.59@gmail.com**
